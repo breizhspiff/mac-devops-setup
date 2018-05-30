@@ -17,6 +17,8 @@ dotfiles_files:
   - .zshrc
 
 homebrew_installed_packages:
+  - fortune
+  - cowthink
   - openssl
   - git
   - tree
