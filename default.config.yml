@@ -3,91 +3,122 @@ configure_terminal: yes
 configure_osx: yes
 configure_dotfiles: yes
 
-dotfiles_repo: https://github.com/DemisR/dotfiles.git
+dotfiles_repo: git@github.com:breizhspiff/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/dotfiles
 dotfiles_files:
   - .aliases
-  - .zshrc
+  - .functions
   - .gitconfig
   - .gitignore_global
-  - .vimrc
-  - .vim
   - .osx
-  - .functions
+  - .vim
+  - .vimrc
+  - .zshrc
 
 homebrew_installed_packages:
   - openssl
   - git
   - tree
-  - httpie
   - python
   - python3
   - sqlite
   - nmap
   - ssh-copy-id
   - wget
-  - csshx
-  - whatmask
-  - knock
-  - netcat
-  - sshuttle
-  # - freetds
-
+  - ethereum
+  - postgresql
+  - plantuml
+  - node
+  - maven
+  - markdown
+  - graphviz
+  - openssl
 
 homebrew_taps:
   - homebrew/core
-  - caskroom/cask
-  - homebrew/dupes
-  - homebrew/versions
+  - homebrew/cask
+  - homebrew/cask-drivers
+  - homebrew/cask-versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - zoomus
+  - sonos
   - docker
-  - dropbox
   - google-chrome
-  - handbrake
   - java
-  - kap
-  - sequel-pro
   - vagrant
   - virtualbox
   - vlc
   - iterm2
-  - sourcetree
   - postman
   - atom
   - intellij-idea
-  - qlcolorcode
-  - qlstephen
-  - qlmarkdown
-  - quicklook-json
-  - qlprettypatch
-  - quicklook-csv
   - betterzipql
   - qlimagesize
-  - webpquicklook
   - suspicious-package
   - spotify
   - evernote
   - postico
   - sequel-pro
   - skype-for-business
-  - caffeine
   - visual-studio-code
   - go2shell
-  - filezilla
-  #- microsoft-office
-  #- licecap
+  - aegisub
+  - dashlane
+  - adobe-acrobat-reader
+  - android-file-transfer
+  - atom
+  - blockstack
+  - brackets
+  - caffeine
+  - camunda-modeler
+  - cyberduck
+  - daedalus
+  - dashlane
+  - disk-inventory-x
+  - divvy
+  - ethereum-wallet
+  - firefox
+  - ganache
+  - github
+  - gitter
+  - go2shell
+  - home-inventory
+  - joinme
+  - libreoffice
+  - makemkv
+  - merlin-project
+  - mist
+  - omnifocus
+  - omnigraffle
+  - openbazaar
+  - plex-media-player
+  - plexamp
+  - rstudio
+  - skitch
+  - skype
+  - slack
+  - teamviewer
+  - tibco-jaspersoft-studio
+  - transmission
+  - tunnelblick
+  - whatsapp
+  - workplace-chat
+  - nextcloud
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_app_ids:
-  - 425424353 # The Unarchiver (3.11.1)
-  - 425955336 # Skitch (2.8)
-  - 803453959 # Slack (2.4.1)
-  - 472226235 # LanScan (4.3)
-  - 443987910 # 1Password (6.5.3)
-  - 715768417 # Microsoft Remote Desktop (8.0.27246)
+  # - 999177212 # UnRAR Free (1.3)
+  # - 526298438 # Lightshot Screenshot (2.18)
+  # - 1153157709 # Speedtest by Ookla (1.5)
+  # - 549083868 # Display Menu (2.2.3)
+  # - 568494494 # Pocket (1.7.8)
+
+  # - 865500966 # feedly. Read more, know more. (0.2)
+  # - 1255878751 # Visual Budget Easy (1.24)
+  # - 1190651975 # eidReader (1.1.2)
 
 #mas_email: ""
 #mas_password: ""

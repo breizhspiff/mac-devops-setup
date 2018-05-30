@@ -1,15 +1,15 @@
 ---
 - name: Install OSX command line tools
   include: osx-commandline.yml
-  
+
 # Homebrew setup prerequisites.
 - name: Ensure Homebrew parent directory has correct permissions.
   file:
     path: "{{ homebrew_prefix }}"
     owner: root
-    group: admin
+    group: wheel
     state: directory
-    mode: 0775
+    mode: 0755
   become: yes
 
 - name: Ensure Homebrew directory exists.

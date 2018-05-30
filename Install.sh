@@ -9,7 +9,7 @@ sudo pip install ansible
 xcode-select --install
 
 # Clone this repository to your local drive
-git clone https://github.com/DemisR/mac-devops-setup.git
+git clone git@github.com:breizhspiff/mac-setup.git
 
 # Updating OSX
 
