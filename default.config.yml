@@ -17,6 +17,8 @@ dotfiles_files:
   - .zshrc
 
 homebrew_installed_packages:
+  - whatmask
+  - ngrep
   - fortune
   - cowthink
   - openssl
@@ -124,6 +126,3 @@ mas_installed_app_ids:
   - 1255878751 # Visual Budget Easy (1.24)
   - 1190651975 # eidReader (1.1.2)
   - 963642514 # Duplicate Photos Fixer Pro (2.5)
-
-#mas_email: ""
-#mas_password: ""
