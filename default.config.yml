@@ -47,6 +47,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  # - bettertouchtool
   - zoomus
   - sonos
   - docker
@@ -76,7 +77,6 @@ homebrew_cask_apps:
   - atom
   - blockstack
   - brackets
-  - caffeine
   - camunda-modeler
   - cyberduck
   - daedalus
@@ -116,13 +116,14 @@ homebrew_cask_apps:
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_app_ids:
-  - 999177212 # UnRAR Free (1.3)
-  - 526298438 # Lightshot Screenshot (2.18)
-  - 1153157709 # Speedtest by Ookla (1.5)
-  - 549083868 # Display Menu (2.2.3)
-  - 568494494 # Pocket (1.7.8)
-  - 937984704 # Amphetamine (3.0.2)
-  - 865500966 # feedly. Read more, know more. (0.2)
-  - 1255878751 # Visual Budget Easy (1.24)
-  - 1190651975 # eidReader (1.1.2)
-  - 963642514 # Duplicate Photos Fixer Pro (2.5)
+  - 999177212 # UnRAR Free
+  - 526298438 # Lightshot Screenshot
+  - 1153157709 # Speedtest by Ookla
+  - 549083868 # Display Menu
+  - 568494494 # Pocket
+  - 937984704 # Amphetamine
+  - 865500966 # feedly. Read more, know more.
+  - 1255878751 # Visual Budget Easy
+  - 1190651975 # eidReader
+  - 963642514 # Duplicate Photos Fixer Pro
+  - 409183694 # Keynote
