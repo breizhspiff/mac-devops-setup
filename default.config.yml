@@ -17,6 +17,7 @@ dotfiles_files:
   - .zshrc
 
 homebrew_installed_packages:
+  - ruby
   - whatmask
   - ngrep
   - fortune
