@@ -39,6 +39,8 @@ homebrew_installed_packages:
   - markdown
   - graphviz
   - openssl
+  - bat
+  - prettyping
 
 homebrew_taps:
   - homebrew/core
@@ -114,6 +116,7 @@ homebrew_cask_apps:
   - nextcloud
   - paw
   - archi
+  - zeebe-modeler
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_app_ids:
