@@ -50,7 +50,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  # - bettertouchtool
+  - brave-browser
   - zoomus
   - sonos
   - docker
@@ -70,47 +70,32 @@ homebrew_cask_apps:
   - evernote
   - postico
   - sequel-pro
-  - skype-for-business
-  - visual-studio-code
   - go2shell
   - aegisub
   - dashlane
   - adobe-acrobat-reader
   - android-file-transfer
   - atom
-  - blockstack
-  - brackets
   - camunda-modeler
   - cyberduck
-  - daedalus
   - dashlane
   - disk-inventory-x
   - divvy
-  - ethereum-wallet
   - firefox
   - ganache
   - github
   - gitter
-  - go2shell
   - home-inventory
   - joinme
   - libreoffice
   - makemkv
-  - merlin-project
-  - mist
   - omnifocus
   - omnigraffle
-  - openbazaar
   - plex-media-player
-  - plexamp
   - rstudio
-  - skitch
   - skype
   - slack
-  - teamviewer
-  - tibco-jaspersoft-studio
   - transmission
-  - tunnelblick
   - whatsapp
   - workplace-chat
   - nextcloud
@@ -121,7 +106,6 @@ homebrew_cask_apps:
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_app_ids:
   - 999177212 # UnRAR Free
-  - 526298438 # Lightshot Screenshot
   - 1153157709 # Speedtest by Ookla
   - 549083868 # Display Menu
   - 568494494 # Pocket
